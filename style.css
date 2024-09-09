@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+}
+
+#about, #projects, #contact {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.project {
+    margin-bottom: 1.5em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5em 0 0.2em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+form button {
+    padding: 0.7em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+body {
+    background-color: #f0f0f0; /* Light grey background color */
+}
+body {
+    background-image: url('BG.png'); /* Replace with your image file path */
+    background-size: cover; /* Make the image cover the whole page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+.profile-photo {
+    width: 150px; /* Set the width of the photo */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the photo circular */
+    display: block; /* Ensures the photo is centered if needed */
+    margin: 0 auto; /* Centers the photo horizontally */
+}
